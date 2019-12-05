@@ -1,7 +1,8 @@
 {
   "scripts": {
     "collect": "lhci collect --staticDistDir=./public",
-    "upload": "lhci upload --target=temporary-public-storage"
+    "upload": "lhci upload --target=temporary-public-storage",
+    "assert": "lhci assert --preset=lighthouse:recommended"
   },
   "devDependencies": {
     "@lhci/cli": "^0.3.6"
