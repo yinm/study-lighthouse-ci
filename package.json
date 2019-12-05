@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "collect": "lhci collect --staticDistDir=./public"
+    "collect": "lhci collect --staticDistDir=./public",
+    "upload": "lhci upload --target=temporary-public-storage"
   },
   "devDependencies": {
     "@lhci/cli": "^0.3.6"
