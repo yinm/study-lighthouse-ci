@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "collect": "lhci collect --staticDistDir=./public"
+  },
+  "devDependencies": {
+    "@lhci/cli": "^0.3.6"
+  }
+}
