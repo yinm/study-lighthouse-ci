@@ -7,6 +7,4 @@ jobs:
     steps:
       - checkout
       - run: npm i
-      - run: npm run collect
-      - run: npm run assert
-      - run: npm run upload
+      - run: npx lhci autorun

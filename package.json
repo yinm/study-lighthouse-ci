@@ -1,9 +1,4 @@
 {
-  "scripts": {
-    "collect": "lhci collect",
-    "upload": "lhci upload",
-    "assert": "lhci assert"
-  },
   "devDependencies": {
     "@lhci/cli": "^0.3.6"
   }
